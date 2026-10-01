@@ -26,9 +26,10 @@ favicon.svg, favicon-32.png, apple-touch-icon.png   Favicon « WM »
 - Remplacer les 2 projets d'exemple de `PROJECTS` par les vrais projets (+ captures dans `img/`)
 - Confirmer ou retirer les stats Hero non vérifiées (« dès 72h », « Lighthouse visé 90+ »)
 - Image Open Graph (1200×630), URL canonique, sitemap.xml, robots.txt, page 404
-- Déploiement (Vercel/Netlify) puis mesure Lighthouse réelle
+- Mesure Lighthouse réelle sur le site déployé
 
 ## Dernières modifications importantes
+- Déploiement GitHub Pages (branche `main`, racine) : https://tenkaichi025.github.io/portfolio/ — penser à rebuild `css/style.css` avant chaque push
 - Repositionnement éditorial (suppression de « Vibecoder », IA présentée comme outil)
 - Séparation du fichier unique en HTML / CSS / JS + build Tailwind
 - Projet client #2 supprimé ; boutique WhatsApp présentée comme exemple/démo
@@ -54,4 +55,4 @@ Sans npm : `tailwindcss-windows-x64.exe -i src/input.css -o css/style.css --mini
 Aucune (site statique). Les coordonnées de contact publiques sont dans `js/config.js` et `index.html`.
 
 ## État actuel & Prochaines étapes
-Site fonctionnel et responsive, prêt à recevoir les vrais projets. Prochaines étapes : contenu réel de `PROJECTS`, image Open Graph, déploiement, mesure Lighthouse.
+Site fonctionnel et responsive, prêt à recevoir les vrais projets. Prochaines étapes : contenu réel de `PROJECTS`, image Open Graph, mesure Lighthouse. Site en ligne : https://tenkaichi025.github.io/portfolio/
